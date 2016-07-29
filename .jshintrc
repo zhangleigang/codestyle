@@ -1,0 +1,41 @@
+{
+    // 循环或者条件语句必须使用花括号包围(curly braces花括号)
+    "curly": true,
+
+    // 强制使用 ===和 !==
+    "eqeqeq": true,
+
+    // To tell JSHint that your code uses ECMAScript 6 specific syntax
+    "esversion": 6,
+
+    // 在所有"for in"循环中，必须使用hasOwnPropery过滤掉对象继承来的成员
+    "forin": true,
+
+    // 禁止重写原生对象的原型如 Array, Date
+    "freeze": true,
+
+    // 禁止定义之前使用变量,除了函数声明
+    "latedef": "nofunc",
+
+    // 最大警告数
+    "maxerr": 200,
+
+    // 禁止调用new构造函数，而不赋值给变量
+    "nonew": true,
+
+    // 检查变量是否在相同的作用域重复定义
+    "shadow": "inner",
+
+    // 变量未定义
+    "undef": true,
+
+    // 变量定义未使用
+    "unused": true,
+
+    // 让jshint知道一些预先已定义的全局变量
+    "browser": true,
+    "devel": true,
+    "jquery": true,
+    "nonstandard": true,
+    "typed": true
+}
